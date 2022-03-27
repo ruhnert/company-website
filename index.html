@@ -5,42 +5,96 @@
 <head>
   <title>Company website</title>
   <link rel="stylesheet" href="resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Palette+Mosaic&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="container">
-    <h1 class="center">That one company</h1>
-    <nav class="container">
-      <ul>
-        <li class="center">
-          <a href="#mission">Mission Statement</a>
-        </li>
-        <li class="center">
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li class="center">
-          <a href="#team">Team</a>
-        </li>
-      </ul>
-    </nav>
+    <h1 class="center">That One Company</h1>
   </header>
+  <nav class="container">
+    <ul>
+      <li class="center">
+        <a href="#mission">Mission</a>
+      </li>
+      <li class="center">
+        <a href="#portfolio">Portfolio</a>
+      </li>
+      <li class="center">
+        <a href="#team">Team</a>
+      </li>
+      <li class="center">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
   
   <main>
-    <div class="mission">
-      hi
+    <div class="mission container" id="mission">
+      <div class="content">
+        <h1>Our Mission</h1>
+        <h3>This is the unbelievably great mission of this company. This makes everyone work here!</h3>
+      </div>
     </div>
-    <div class="portfolio">
-
+    <div class="portfolio" id="portfolio">
+      <div class="content">
+        <h1>Out Portfolio</h1>
+        <h3>These are a couple of our incredibly great portfolio firms. They strive to push the boundary of the possible each and every day</h3>
+        <div class="companies container">
+          <div class="company container">
+            <img src="/resources/images/hangar.jpeg" alt="">
+            <span>Airline company</span>
+          </div>
+          <div class="company container">
+            <img src="/resources/images/dashboard.jpeg" alt="">
+            <span>Auto company</span>
+          </div>
+          <div class="company container">
+            <img src="/resources/images/blurred-road.webp" alt="">
+            <span>Road company</span>
+          </div>
+          <div class="company container">
+            <img src="/resources/images/tires.jpeg" alt="">
+            <span>Tire company</span>
+          </div>
+          <div class="company container">
+            <img src="/resources/images/truck.jpeg" alt="">
+            <span>Fancy chauffeur</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="team">
-
+    <div class="team-section" id="team">
+      <h1>Our amazing team</h1>
+      <div class="team container">
+        <div class="mate">
+          <img src="/resources/images/employee-one.webp" alt="This is Laura">
+          <h2>Susie Wolff</h2>
+          <p>CEO and founder</p>
+        </div>
+        <div class="mate">
+          <img src="/resources/images/employee-two.webp" alt="This is Alex">
+          <h2>George Russel</h2>
+          <p>Partner - Sales</p>
+        </div>
+        <div class="mate">
+          <img src="/resources/images/employee-three.webp" alt="Thie is Lando">
+          <h2>Lando Norris</h2>
+          <p>Partner - Marketing</p>
+        </div>
+      </div>
     </div>
-
-
   </main>
   
   <footer>
-
+    <div id="contact">
+      <h1>Reach out to us</h1>
+      <p>hello@ourgreatcompany.com</p>
+      <p>+ 1 234 56789</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2022 That One Company</p>
+    </div>
   </footer>
 
 </body>

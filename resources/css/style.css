@@ -1,9 +1,18 @@
 /* Universal */
 
-html, body {
+html {
   font-size: 16px;
+}
+
+body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: 'Noto Sans';
+}
+
+h2, h3, h4, h5 {
+  font-weight: 400;
 }
 
 .center {
@@ -18,17 +27,40 @@ html, body {
 header {
   flex-direction: column;
   align-items: center;
+  background: rgba(255, 255, 255, 1);
+  font-family:'Palette Mosaic';
+
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 3rem;
 }
 
 nav {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.9);
   justify-content: space-around;
-
 }
 
 nav li {
   display: inline-block;
   width: 10rem;
-  padding: 1rem 0;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li a:hover {
+  font-weight: 700;
+}
+
+nav li a:visited {
+  color: black;
 }
 
 
@@ -36,9 +68,95 @@ nav li {
 
 .mission {
   background-image: url("/resources/images/skyscrapers.jpeg");
-  height: 300px;
+  height: 400px;
   width: 100%;
+}
+
+.mission .content {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+}
+
+.portfolio {
+  padding: 30px 20px;
+}
+
+.companies {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.company {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.company img {
+  width: 200px;
+  max-width: 100%;
+  padding: 0.5rem;
+  height: 125px;
+  object-fit: cover;
+
+}
+
+.company span {
+  padding: 0.25rem;
+  padding-left: 1rem;
+  min-width: 150px;
+  text-align: start;
+}
+
+.team-section {
+  padding-top: 20px;
+  margin-top: 20px;
+  background-image: url("/resources/images/blurred-road.webp");
+  color: white
+}
+
+.team {
+  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mate {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.mate h2 {
+  font-weight: 700;
+}
+
+.mate img {
+  width: 200px;
+  max-width: 100%;
+  padding: 0.5rem;
+  height: 300px;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 
 /* Footer */
+
+#contact {
+  margin-top: 50px;
+}
+
+.copyright {
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  text-align: right;
+}
