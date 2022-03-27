@@ -68,7 +68,7 @@ nav li a:visited {
 /* Main */
 
 .mission {
-  background-image: url("/docs/assets/images/skyscrapers.jpeg");
+  background-image: url("../../docs/assets/images/skyscrapers.jpeg");
   height: 400px;
   width: 100%;
 }
@@ -118,7 +118,7 @@ nav li a:visited {
 .team-section {
   padding-top: 20px;
   margin-top: 20px;
-  background-image: url("/docs/assets/images/blurred-road.webp");
+  background-image: url("../../docs/assets/images/blurred-road.webp");
   color: white
 }
 
